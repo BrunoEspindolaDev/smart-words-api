@@ -4,7 +4,8 @@
   "info": {
     "singularName": "collection",
     "pluralName": "collections",
-    "displayName": "collection"
+    "displayName": "collection",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,9 @@
       "relation": "oneToMany",
       "target": "api::word.word",
       "mappedBy": "collection"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
